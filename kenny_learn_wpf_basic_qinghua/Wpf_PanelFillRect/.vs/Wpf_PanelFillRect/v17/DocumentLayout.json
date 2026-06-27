@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf_PanelFillRect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A05C2DA6-5380-49FA-B5C9-4CDA88FFA71C}|Wpf_PanelFillRect\\Wpf_PanelFillRect.csproj|g:\\my_projects_2026\\kenny_learn_wpf\\wpf_panelfillrect\\wpf_panelfillrect\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05C2DA6-5380-49FA-B5C9-4CDA88FFA71C}|Wpf_PanelFillRect\\Wpf_PanelFillRect.csproj|solutionrelative:wpf_panelfillrect\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf_PanelFillRect\\Wpf_PanelFillRect\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf_PanelFillRect\\MainWindow.xaml.cs",
+              "ToolTip": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf_PanelFillRect\\Wpf_PanelFillRect\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf_PanelFillRect\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T17:01:08.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
