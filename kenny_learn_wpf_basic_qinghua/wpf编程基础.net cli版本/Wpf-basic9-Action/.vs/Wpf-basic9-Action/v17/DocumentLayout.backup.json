@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic9-Action\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F5E0C4-0534-4794-8280-B77185E46DDA}|Wpf-action-MultiDataTrigger\\Wpf-action-MultiDataTrigger.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-basic9-action\\wpf-action-multidatatrigger\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{35F5E0C4-0534-4794-8280-B77185E46DDA}|Wpf-action-MultiDataTrigger\\Wpf-action-MultiDataTrigger.csproj|solutionrelative:wpf-action-multidatatrigger\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F5E0C4-0534-4794-8280-B77185E46DDA}|Wpf-action-MultiDataTrigger\\Wpf-action-MultiDataTrigger.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-basic9-action\\wpf-action-multidatatrigger\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F5E0C4-0534-4794-8280-B77185E46DDA}|Wpf-action-MultiDataTrigger\\Wpf-action-MultiDataTrigger.csproj|solutionrelative:wpf-action-multidatatrigger\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic9-Action\\Wpf-action-MultiDataTrigger\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf-action-MultiDataTrigger\\MainWindow.xaml",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic9-Action\\Wpf-action-MultiDataTrigger\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf-action-MultiDataTrigger\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T19:16:40.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic9-Action\\Wpf-action-MultiDataTrigger\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf-action-MultiDataTrigger\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic9-Action\\Wpf-action-MultiDataTrigger\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf-action-MultiDataTrigger\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T19:16:40.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

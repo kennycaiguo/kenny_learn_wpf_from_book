@@ -1,0 +1,42 @@
+﻿<Window x:Class="Wpf_control_menu_toolbar_statusbar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_control_menu_toolbar_statusbar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <Menu DockPanel.Dock="Top">
+            <!---->
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open" Click="OpenClicked" />
+                <MenuItem Header="_Exit" Click="ExitClicked" />
+            </MenuItem>
+            <MenuItem Header="_Edit">
+                <MenuItem Header="_Cut" />
+                <MenuItem Header="_Copy"  />
+            </MenuItem>
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Content="Open" />
+                <Button Content="Cut" />
+                <Button Content="Copy" />
+                <Button Content="Paste" />
+                <Button Content="Exit" />
+            </ToolBar>
+            <ToolBar Header="Search">
+                <TextBox Width="120"/>
+                <Button Content="Go"/>
+            </ToolBar>
+        </ToolBarTray>
+        <StatusBar DockPanel.Dock="Bottom" Background="Bisque" >
+            <TextBlock Text="就绪:" />
+            <TextBlock Text="Https://www.kennycai.com" HorizontalAlignment="Center" />
+            <Button>
+                <Rectangle Fill="LightGoldenrodYellow" Width="100" Height="10"/>
+            </Button>
+        </StatusBar>
+    </DockPanel>
+</Window>

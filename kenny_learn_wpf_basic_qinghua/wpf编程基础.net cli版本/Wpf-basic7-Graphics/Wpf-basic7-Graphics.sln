@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-Graphics-Segments", "Wpf-Graphics-Segments\Wpf-Graphics-Segments.csproj", "{B90CC8E1-E4AC-4403-AECB-4AB315222FDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-Graphics-Drawing", "Wpf-Graphics-Drawing\Wpf-Graphics-Drawing.csproj", "{A426550D-6FAC-4BFD-B00B-1ED9C4494D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drawingdemo", "Drawingdemo\Drawingdemo.csproj", "{95FBD503-EC2B-40F1-9F2A-B76390113950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Graphics-Shape", "Wpf-Graphics-Shape\Wpf-Graphics-Shape.csproj", "{BB4536BF-7925-4D6F-BB32-C16B5B4007DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Graphics-picture", "Wpf-Graphics-picture\Wpf-Graphics-picture.csproj", "{93960A39-89AB-46DA-BCF2-9BF082B6D2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Graphics-pic-Effects", "Wpf-Graphics-pic-Effects\Wpf-Graphics-pic-Effects.csproj", "{B2805A02-42E5-434C-879D-52DD4753E9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Graphics-3d-demo", "Wpf-Graphics-3d-demo\Wpf-Graphics-3d-demo.csproj", "{65483EFF-959A-48F2-B104-854E8B6431B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-Graphics-picture-imageSource", "Wpf-Graphics-picture-imageSource\Wpf-Graphics-picture-imageSource.csproj", "{4D86A070-8A75-4E49-A660-C7AF7A2412C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B90CC8E1-E4AC-4403-AECB-4AB315222FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90CC8E1-E4AC-4403-AECB-4AB315222FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90CC8E1-E4AC-4403-AECB-4AB315222FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90CC8E1-E4AC-4403-AECB-4AB315222FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A426550D-6FAC-4BFD-B00B-1ED9C4494D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A426550D-6FAC-4BFD-B00B-1ED9C4494D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A426550D-6FAC-4BFD-B00B-1ED9C4494D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A426550D-6FAC-4BFD-B00B-1ED9C4494D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FBD503-EC2B-40F1-9F2A-B76390113950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FBD503-EC2B-40F1-9F2A-B76390113950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FBD503-EC2B-40F1-9F2A-B76390113950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FBD503-EC2B-40F1-9F2A-B76390113950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4536BF-7925-4D6F-BB32-C16B5B4007DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4536BF-7925-4D6F-BB32-C16B5B4007DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4536BF-7925-4D6F-BB32-C16B5B4007DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4536BF-7925-4D6F-BB32-C16B5B4007DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93960A39-89AB-46DA-BCF2-9BF082B6D2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93960A39-89AB-46DA-BCF2-9BF082B6D2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93960A39-89AB-46DA-BCF2-9BF082B6D2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93960A39-89AB-46DA-BCF2-9BF082B6D2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2805A02-42E5-434C-879D-52DD4753E9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2805A02-42E5-434C-879D-52DD4753E9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2805A02-42E5-434C-879D-52DD4753E9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2805A02-42E5-434C-879D-52DD4753E9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65483EFF-959A-48F2-B104-854E8B6431B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65483EFF-959A-48F2-B104-854E8B6431B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65483EFF-959A-48F2-B104-854E8B6431B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65483EFF-959A-48F2-B104-854E8B6431B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D86A070-8A75-4E49-A660-C7AF7A2412C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D86A070-8A75-4E49-A660-C7AF7A2412C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D86A070-8A75-4E49-A660-C7AF7A2412C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D86A070-8A75-4E49-A660-C7AF7A2412C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68F4F114-CB16-4CD6-90C2-ECA1B5A90730}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Wpf_layout_DockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_layout_DockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Content="菜单栏区域" />
+        <Button DockPanel.Dock="Left" Content="文件夹区域" />
+        <Button DockPanel.Dock="Top" Content="工具条区域" />
+        <Button DockPanel.Dock="Bottom" Content="状态栏区域" />
+        <Button DockPanel.Dock="Right" Content="消息消息列表区域" />
+    </DockPanel>
+</Window>

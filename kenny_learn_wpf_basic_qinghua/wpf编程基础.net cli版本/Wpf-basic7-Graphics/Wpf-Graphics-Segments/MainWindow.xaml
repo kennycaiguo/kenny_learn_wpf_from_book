@@ -1,0 +1,189 @@
+﻿<!--LineSegment--><!--
+<Window x:Class="Wpf_Graphics_Segments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Segments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Grid>
+        <Path Fill="Pink" Stroke="Yellow" StrokeThickness="4">
+            <Path.Data>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigure StartPoint="28,10" IsClosed="True">
+                            <LineSegment Point="10,20" />
+                            <LineSegment Point="20,40" />
+                            <LineSegment Point="40,70" />
+                            <LineSegment Point="70,80" />
+                            <LineSegment Point="80,120" />
+                            <LineSegment Point="120,10" />
+                        </PathFigure>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>-->
+
+<!--BezierSegment--><!--
+<Window x:Class="Wpf_Graphics_Segments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Segments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="730">
+    <Grid>
+        <Path Fill="Pink" Stroke="Yellow" StrokeThickness="4">
+            <Path.Data>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigure StartPoint="90,5" IsClosed="True">
+                            <LineSegment Point="10,10" />
+                            <BezierSegment Point1="264,40" Point2="400,430" Point3="700,300"
+                                           IsSmoothJoin="True"/>
+                        </PathFigure>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>-->
+
+<!--ArcSegment-->
+<!--<Window x:Class="Wpf_Graphics_Segments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Segments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="730">
+    <Grid>
+        <Path Fill="Pink" Stroke="Yellow" StrokeThickness="4">
+            <Path.Data>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigure StartPoint="90,5" IsClosed="True">
+                            <LineSegment Point="10,10" />
+                            <QuadraticBezierSegment Point1="80,45" Point2="9,79" />
+                            <BezierSegment Point1="264,40" Point2="400,430" Point3="700,300"
+                                           IsSmoothJoin="True"/>
+                            <ArcSegment Point="70,100" Size="65,55" IsLargeArc="False" SweepDirection="Clockwise"/>
+                        </PathFigure>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>-->
+
+<!--CombinedGeometry-->
+<!--<Window x:Class="Wpf_Graphics_Segments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Segments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="730">
+    <Grid>
+        <Path Fill="Pink" Stroke="Yellow" StrokeThickness="4">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry RadiusX="40" RadiusY="40" Center="75,75"/>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry RadiusX="40" RadiusY="40" Center="125,75"/>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>-->
+<!--GeometryGroup-->
+<!--Window x:Class="Wpf_Graphics_Segments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Segments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="730">
+    <Grid>
+        <Path Fill="Pink" Stroke="Yellow" StrokeThickness="1">
+            <Path.Data>
+                <GeometryGroup FillRule="Nonzero">
+                    <EllipseGeometry Center="40,70" RadiusX="30" RadiusY="30" />
+                    <EllipseGeometry Center="70,70" RadiusX="30" RadiusY="30" />
+                    <EllipseGeometry Center="50,40" RadiusX="30" RadiusY="30" />
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>-->
+  <!--画刷-->  
+<Window x:Class="Wpf_Graphics_Segments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Segments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="730">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--SolidColorBrush-->
+        <Grid Grid.Row="0" Grid.Column="0" >
+            <Rectangle Width="95" Height="85">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="Orange"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        <!--LinearGradientBrush-->
+        <Grid Grid.Row="0" Grid.Column="1" >
+            <Rectangle Width="95" Height="85">
+                <Rectangle.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="red" Offset="0.0"/>
+                        <GradientStop Color="Green" Offset="0.6"/>
+                        <GradientStop Color="Blue" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        <!--RadialGradientBrush-->
+        <Grid Grid.Row="1" Grid.Column="0" >
+            <Rectangle Width="95" Height="85">
+                <Rectangle.Fill>
+                    <RadialGradientBrush GradientOrigin="0.75,0.25">
+                        <GradientStop Color="red" Offset="0.0"/>
+                        <GradientStop Color="Green" Offset="0.6"/>
+                        <GradientStop Color="Blue" Offset="1.0"/>
+                    </RadialGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        <!--ImageBrush-->
+        <Grid Grid.Row="1" Grid.Column="1" >
+            <Rectangle Width="95" Height="85">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/girlsinlake.png" />
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        
+    </Grid>
+</Window>

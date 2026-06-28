@@ -1,0 +1,15 @@
+﻿ <!--线性动画-->
+ <Window x:Class="Wpf_animation_AnimationType.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_animation_AnimationType"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBlock Height="50" Width="220" Foreground="Green" FontSize="36" Name="textBlock1" 
+                   Text="文字平移" Margin="0,21,0,240"/>
+    </Grid>
+</Window>
+

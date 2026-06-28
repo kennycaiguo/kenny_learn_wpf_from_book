@@ -1,0 +1,22 @@
+﻿<Window x:Class="Wpf_layout_canvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_layout_canvas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--一个Window标签里面只能有一个Canvas元素,有两个会报错 Grid,DockPanel,StackPanel,WrapPanel也是如此-->
+    <!--<Canvas Width="200" Height="100" Background="Beige">  
+    <Button Content="Left,Top" Canvas.Left="4" Canvas.Top="4"/>
+        <Button Content="right,Top" Canvas.Right="4" Canvas.Top="4"/>
+        <Button Content="Left,Bottom" Canvas.Left="4" Canvas.Bottom="4"/>
+        <Button Content="Right,Bottom" Canvas.Right="4" Canvas.Bottom="4"/>
+        <Button Content="Center" Canvas.Left="75" Canvas.Top="38"/>
+    </Canvas>-->
+    <Canvas>
+        <Rectangle Canvas.ZIndex="3" Width="60" Height="60" Canvas.Top="30" Canvas.Left="30" Fill="BlueViolet"/>
+        <Rectangle Canvas.ZIndex="1" Width="60" Height="60" Canvas.Top="50" Canvas.Left="50" Fill="Yellow"/>
+        <Rectangle Canvas.ZIndex="2" Width="60" Height="60" Canvas.Top="70" Canvas.Left="70" Fill="Pink"/>
+    </Canvas>
+</Window>

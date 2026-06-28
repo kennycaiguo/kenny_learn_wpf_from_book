@@ -1,0 +1,38 @@
+﻿<Window x:Class="Wpf_MVVM_calculator.View.Window_SimpleViewManager"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Wpf_MVVM_calculator.View"
+      mc:Ignorable="d" 
+      Width="335" Height="370"
+      Title="Window_SimpleViewManager">
+
+    <Grid Height="236" Width="312">
+        <Button x:Name="button1" Content="Hide Simple Window" Height="23" HorizontalAlignment="Right"
+                Margin="0,12,4,0" VerticalAlignment="Top" Width="146" 
+                Command="{Binding Path=HideWindowCommand}" CommandParameter="0" />
+        <Button x:Name="button2" Content="Hide black Window" Height="23" HorizontalAlignment="Left"
+                Margin="162,41,0,0" VerticalAlignment="Top" Width="146" 
+                Command="{Binding Path=HideWindowCommand}" CommandParameter="1" />
+        <Button x:Name="button3" Content="Hide 3D Window" Height="23" HorizontalAlignment="Left"
+                Margin="162,70,0,0" VerticalAlignment="Top" Width="146" 
+                Command="{Binding Path=HideWindowCommand}" CommandParameter="2" />
+        <Button x:Name="button4" Content="Hide Manager Window" Height="23" HorizontalAlignment="Right"
+                Margin="0,99,4,0" VerticalAlignment="Top" Width="146" 
+                Command="{Binding Path=HideWindowCommand}" CommandParameter="3" />
+
+        <Button x:Name="button5" Content="Show Simple Window" Height="23" HorizontalAlignment="Left"
+                Margin="10,12,0,0" VerticalAlignment="Top" Width="146" 
+                Command="{Binding Path=ShowWindowCommand}" CommandParameter="0" />
+        <Button x:Name="button6" Content="Show Black Window" Height="23" HorizontalAlignment="Left"
+            Margin="10,41,0,0" VerticalAlignment="Top" Width="146" 
+            Command="{Binding Path=ShowWindowCommand}" CommandParameter="1" />
+        <Button x:Name="button7" Content="Show 3D Window" Height="23" HorizontalAlignment="Left"
+            Margin="10,0,0,143" VerticalAlignment="Bottom" Width="146" 
+            Command="{Binding Path=ShowWindowCommand}" CommandParameter="2" />
+        <Button x:Name="button8" Content="Show Manager Window" Height="23" HorizontalAlignment="Left"
+            Margin="10,99,0,0" VerticalAlignment="Top" Width="146" 
+            Command="{Binding Path=ShowWindowCommand}" CommandParameter="3" />
+    </Grid>
+</Window>

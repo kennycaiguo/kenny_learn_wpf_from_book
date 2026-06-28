@@ -1,0 +1,30 @@
+﻿<Window x:Class="Wpf_action_Blocked_or_Open.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_action_Blocked_or_Open"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="listBox1">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="{Binding Path=Name}" />
+                        <Button CommandParameter="{Binding Path=FullName}">
+                            <Button.Command>
+                                <Binding>
+                                    <Binding.Converter>
+                                        <local:FileToCommandConverter/>
+                                    </Binding.Converter>
+                                </Binding>
+                            </Button.Command>
+                            Display
+                        </Button>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

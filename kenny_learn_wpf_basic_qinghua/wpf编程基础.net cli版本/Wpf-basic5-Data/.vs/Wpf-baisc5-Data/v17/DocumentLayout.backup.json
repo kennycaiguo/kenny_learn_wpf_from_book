@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DB7A1F-F9DA-4CA4-B3AC-D57D2E677DE7}|Wpf-data-Banding-Usage-Resource-list\\Wpf-data-Banding-Usage-Resource-list.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-baisc5-data\\wpf-data-banding-usage-resource-list\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A0DB7A1F-F9DA-4CA4-B3AC-D57D2E677DE7}|Wpf-data-Banding-Usage-Resource-list\\Wpf-data-Banding-Usage-Resource-list.csproj|solutionrelative:wpf-data-banding-usage-resource-list\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0DB7A1F-F9DA-4CA4-B3AC-D57D2E677DE7}|Wpf-data-Banding-Usage-Resource-list\\Wpf-data-Banding-Usage-Resource-list.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-baisc5-data\\wpf-data-banding-usage-resource-list\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0DB7A1F-F9DA-4CA4-B3AC-D57D2E677DE7}|Wpf-data-Banding-Usage-Resource-list\\Wpf-data-Banding-Usage-Resource-list.csproj|solutionrelative:wpf-data-banding-usage-resource-list\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC80FEF6-BC55-4B4D-9207-0351934ADD65}|Wpf-data-Banding-BindingModel\\Wpf-data-Banding-BindingModel.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-baisc5-data\\wpf-data-banding-bindingmodel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC80FEF6-BC55-4B4D-9207-0351934ADD65}|Wpf-data-Banding-BindingModel\\Wpf-data-Banding-BindingModel.csproj|solutionrelative:wpf-data-banding-bindingmodel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F686B29-9FB1-4F14-8DC5-CDF6B964AB6F}|Wpf-data-Banding-Usage-Resource-value,\\Wpf-data-Banding-Usage-Resource-value,.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-baisc5-data\\wpf-data-banding-usage-resource-value,\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F686B29-9FB1-4F14-8DC5-CDF6B964AB6F}|Wpf-data-Banding-Usage-Resource-value,\\Wpf-data-Banding-Usage-Resource-value,.csproj|solutionrelative:wpf-data-banding-usage-resource-value,\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml*",
+              "RelativeToolTip": "Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T18:01:07.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf-data-Banding-Usage-Resource-list\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAADwv4EAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T18:01:07.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-BindingModel\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf-data-Banding-BindingModel\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-BindingModel\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf-data-Banding-BindingModel\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T17:41:15.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-Usage-Resource-value,\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf-data-Banding-Usage-Resource-value,\\MainWindow.xaml",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-baisc5-Data\\Wpf-data-Banding-Usage-Resource-value,\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf-data-Banding-Usage-Resource-value,\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T17:21:39.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

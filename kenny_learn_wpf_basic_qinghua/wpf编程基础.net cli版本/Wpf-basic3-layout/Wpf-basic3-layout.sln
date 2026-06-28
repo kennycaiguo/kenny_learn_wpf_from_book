@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-layout-canvas", "Wpf-layout-canvas\Wpf-layout-canvas.csproj", "{919B17DA-9879-4383-BADA-D23B4476A241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-layout-DockPanel", "Wpf-layout-DockPanel\Wpf-layout-DockPanel.csproj", "{AE6137E2-336D-4B75-991B-51DC0E12A433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf-layout-StackPanel", "Wpf-layout-StackPanel\Wpf-layout-StackPanel.csproj", "{AB6C8686-CAEC-4EBC-819F-156FB56A7CE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-layout-WarpPanel", "Wpf-layout-WarpPanel\Wpf-layout-WarpPanel.csproj", "{A9FA57D8-722B-40DE-B72B-0CA0D42F5888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-layout-UniformGrid", "Wpf-layout-UniformGrid\Wpf-layout-UniformGrid.csproj", "{A5727D5B-3527-404E-B32A-739CD5BE3BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-layout-Grid", "Wpf-layout-Grid\Wpf-layout-Grid.csproj", "{2CF8692D-2F2C-4EC3-8FE7-1FD2B8FCAA2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919B17DA-9879-4383-BADA-D23B4476A241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919B17DA-9879-4383-BADA-D23B4476A241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919B17DA-9879-4383-BADA-D23B4476A241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919B17DA-9879-4383-BADA-D23B4476A241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6137E2-336D-4B75-991B-51DC0E12A433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6137E2-336D-4B75-991B-51DC0E12A433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6137E2-336D-4B75-991B-51DC0E12A433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6137E2-336D-4B75-991B-51DC0E12A433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6C8686-CAEC-4EBC-819F-156FB56A7CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6C8686-CAEC-4EBC-819F-156FB56A7CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6C8686-CAEC-4EBC-819F-156FB56A7CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6C8686-CAEC-4EBC-819F-156FB56A7CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FA57D8-722B-40DE-B72B-0CA0D42F5888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FA57D8-722B-40DE-B72B-0CA0D42F5888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FA57D8-722B-40DE-B72B-0CA0D42F5888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FA57D8-722B-40DE-B72B-0CA0D42F5888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5727D5B-3527-404E-B32A-739CD5BE3BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5727D5B-3527-404E-B32A-739CD5BE3BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5727D5B-3527-404E-B32A-739CD5BE3BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5727D5B-3527-404E-B32A-739CD5BE3BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF8692D-2F2C-4EC3-8FE7-1FD2B8FCAA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF8692D-2F2C-4EC3-8FE7-1FD2B8FCAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF8692D-2F2C-4EC3-8FE7-1FD2B8FCAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF8692D-2F2C-4EC3-8FE7-1FD2B8FCAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBE0E373-874D-444D-96AB-2CC8C4970806}
+	EndGlobalSection
+EndGlobal

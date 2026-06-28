@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Wpf_style_styleAndControlTemplate</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Cart2.png" />
+    <None Remove="Images\home.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Cart2.png" />
+    <Resource Include="Images\home.png" />
+  </ItemGroup>
+
+</Project>

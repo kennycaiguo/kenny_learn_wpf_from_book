@@ -1,0 +1,47 @@
+﻿<Window x:Class="Wpf_animation_with_controls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_animation_with_controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Width="100" Height="50" Content="Welcome">
+            <Label.Template>
+                <ControlTemplate TargetType="{x:Type Label}">
+                    <Border x:Name="border1" CornerRadius="4" BorderBrush="Green" BorderThickness="2">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <EventTrigger RoutedEvent="Label.MouseEnter">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation To="SkyBlue" Storyboard.TargetName="border1"
+                                                        Storyboard.TargetProperty="BorderBrush.Color"/>
+                                        <ThicknessAnimation To="4" Storyboard.TargetName="border1"
+                                                        Storyboard.TargetProperty="BorderThickness"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="Label.MouseLeave">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation To="Green" Storyboard.TargetName="border1"
+                                                        Storyboard.TargetProperty="BorderBrush.Color"/>
+                                        <ThicknessAnimation To="2" Storyboard.TargetName="border1"
+                                                        Storyboard.TargetProperty="BorderThickness"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Label.Template>
+        </Label>
+        
+    </Grid>
+</Window>

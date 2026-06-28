@@ -1,0 +1,37 @@
+﻿<Window x:Class="Wpf_animation_AnimationType__path.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_animation_AnimationType__path"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="300" Width="489">
+        <Path x:Name="path1" Stroke="Blue" Margin="0,0,0,43">
+            <Path.Data>
+                <EllipseGeometry x:Name="e1" Center="140,100" RadiusX="100" RadiusY="60" />
+            </Path.Data>
+        </Path>
+        <Ellipse Fill="Green" Height="47" Name="ellipse1" Stroke="Black" VerticalAlignment="Top"
+                 Margin="86,96,321,0">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform X="-100" Y="-110" />
+                    <MatrixTransform x:Name="mt1" />
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Triggers>
+                <EventTrigger RoutedEvent="Page.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard x:Name="sb1" RepeatBehavior="Forever">
+                            <MatrixAnimationUsingPath Name="ma1" Storyboard.TargetName="mt1" 
+                                          Storyboard.TargetProperty="Matrix" Duration="0:0:10"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Ellipse.Triggers>
+        </Ellipse>
+        <Button Content="动画启动" Height="23" HorizontalAlignment="Left" Margin="0,202,0,0" 
+                Name="AnimationButton" VerticalAlignment="Top" Width="75" Click="AnimationButton_Click" />
+    </Grid>
+</Window>

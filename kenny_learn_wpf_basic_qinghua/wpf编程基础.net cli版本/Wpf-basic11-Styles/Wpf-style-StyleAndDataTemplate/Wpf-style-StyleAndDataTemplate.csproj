@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Wpf_style_StyleAndDataTemplate</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\birds.jpg" />
+    <None Remove="Images\kfxm.jpg" />
+    <None Remove="Images\strm.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\birds.jpg" />
+    <Resource Include="Images\kfxm.jpg" />
+    <Resource Include="Images\strm.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-AnimationType-linear", "Wpf-animation-AnimationType\Wpf-animation-AnimationType-linear.csproj", "{E611981F-9CEC-42ED-8FD1-A43A921BE9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-AnimationType-keyFrame", "Wpf-animation-AnimationType-keyFrame\Wpf-animation-AnimationType-keyFrame.csproj", "{A117778C-46B4-4349-8FAE-55623D604FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-AnimationType -path", "Wpf-animation-AnimationType -path\Wpf-animation-AnimationType -path.csproj", "{532754CF-D9AC-40CB-AEF5-788CAD8AB526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-AnimationType -path2", "Wpf-animation-AnimationType -path2\Wpf-animation-AnimationType -path2.csproj", "{BFD2FF29-84AF-4D50-B8F1-280DC76225BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-with-controls", "Wpf-animation-with-controls\Wpf-animation-with-controls.csproj", "{D38025BD-98D5-43DF-8C06-F7AA2AEB8ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-with-text", "Wpf-animation-with-text\Wpf-animation-with-text.csproj", "{F3F3E790-5450-4DD3-83E2-BD9B97FF9474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-media-audio", "Wpf-animation-media-audio\Wpf-animation-media-audio.csproj", "{D7576F10-65E6-4C49-A79E-3C64C82538FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf-animation-media-video", "Wpf-animation-media-video\Wpf-animation-media-video.csproj", "{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E611981F-9CEC-42ED-8FD1-A43A921BE9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E611981F-9CEC-42ED-8FD1-A43A921BE9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E611981F-9CEC-42ED-8FD1-A43A921BE9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E611981F-9CEC-42ED-8FD1-A43A921BE9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A117778C-46B4-4349-8FAE-55623D604FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A117778C-46B4-4349-8FAE-55623D604FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A117778C-46B4-4349-8FAE-55623D604FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A117778C-46B4-4349-8FAE-55623D604FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532754CF-D9AC-40CB-AEF5-788CAD8AB526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532754CF-D9AC-40CB-AEF5-788CAD8AB526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532754CF-D9AC-40CB-AEF5-788CAD8AB526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532754CF-D9AC-40CB-AEF5-788CAD8AB526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD2FF29-84AF-4D50-B8F1-280DC76225BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD2FF29-84AF-4D50-B8F1-280DC76225BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD2FF29-84AF-4D50-B8F1-280DC76225BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD2FF29-84AF-4D50-B8F1-280DC76225BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38025BD-98D5-43DF-8C06-F7AA2AEB8ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38025BD-98D5-43DF-8C06-F7AA2AEB8ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38025BD-98D5-43DF-8C06-F7AA2AEB8ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38025BD-98D5-43DF-8C06-F7AA2AEB8ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F3E790-5450-4DD3-83E2-BD9B97FF9474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F3E790-5450-4DD3-83E2-BD9B97FF9474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F3E790-5450-4DD3-83E2-BD9B97FF9474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F3E790-5450-4DD3-83E2-BD9B97FF9474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7576F10-65E6-4C49-A79E-3C64C82538FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7576F10-65E6-4C49-A79E-3C64C82538FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7576F10-65E6-4C49-A79E-3C64C82538FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7576F10-65E6-4C49-A79E-3C64C82538FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E54F314-FDF6-4910-BBC0-D9D6A965F811}
+	EndGlobalSection
+EndGlobal

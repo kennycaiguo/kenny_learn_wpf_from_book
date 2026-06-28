@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf3dDemo\\",
+  "WorkspaceRootPath": "G:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\Wpf3dDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|g:\\my_projects_2026\\kenny_learn_wpf\\wpf3ddemo\\wpf3ddemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|solutionrelative:wpf3ddemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|G:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\Wpf3dDemo\\wpf3ddemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|solutionrelative:wpf3ddemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|g:\\my_projects_2026\\kenny_learn_wpf\\wpf3ddemo\\wpf3ddemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|solutionrelative:wpf3ddemo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|g:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\wpf3ddemo\\wpf3ddemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3DA65B58-F221-47E7-AFE4-DB9329F96761}|Wpf3dDemo\\Wpf3dDemo.csproj|solutionrelative:wpf3ddemo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml",
+              "DocumentMoniker": "G:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Wpf3dDemo\\MainWindow.xaml",
-              "ToolTip": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml",
+              "ToolTip": "G:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml",
               "RelativeToolTip": "Wpf3dDemo\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-06-27T21:57:34.583Z",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml.cs",
+              "DocumentMoniker": "G:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Wpf3dDemo\\MainWindow.xaml.cs",
-              "ToolTip": "G:\\my_projects_2026\\kenny_learn_wpf\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml.cs",
+              "ToolTip": "G:\\my_projects_2026\\kenny_learn_wpf_from_book\\kenny_learn_wpf_basic_qinghua\\Wpf3dDemo\\Wpf3dDemo\\MainWindow.xaml.cs",
               "RelativeToolTip": "Wpf3dDemo\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-27T21:57:34.54Z",
               "EditorCaption": ""

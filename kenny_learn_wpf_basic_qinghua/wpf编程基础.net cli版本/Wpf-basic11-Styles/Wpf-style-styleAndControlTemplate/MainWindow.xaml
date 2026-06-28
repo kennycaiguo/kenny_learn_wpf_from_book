@@ -1,0 +1,33 @@
+﻿<Window x:Class="Wpf_style_styleAndControlTemplate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_style_styleAndControlTemplate"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="250">
+
+    <Window.Resources>
+        <ControlTemplate TargetType="Button" x:Key="ButtonTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Margin="5">
+                    <!--<Image Source="/Images/Cart2.png"/>-->
+                    <Image Source="/Images/home.png"/>
+                </Grid>
+                <Grid Grid.Column="1" >
+                    <!--<Label Content="购物车" FontFamily="微软雅黑" HorizontalAlignment="Left" 
+                           VerticalAlignment="Center"/>-->
+                    <Label Content="首页" FontFamily="微软雅黑" HorizontalAlignment="Left" 
+                           VerticalAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Button FontSize="40" Template="{StaticResource ButtonTemplate}" />
+    </Grid>
+</Window>

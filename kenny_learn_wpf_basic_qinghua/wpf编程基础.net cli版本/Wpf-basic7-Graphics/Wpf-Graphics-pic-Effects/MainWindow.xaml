@@ -1,0 +1,47 @@
+﻿     <!--透明效果-->
+    <!--<Window x:Class="Wpf_Graphics_pic_Effects.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_pic_Effects"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <Grid>
+        <Image Source="/blackwhite.jpg" />
+        <Rectangle Width="200" Height="100">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0,1">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Offset="0" Color="#FFFF0000"/>
+                        <GradientStop Offset="0.33" Color="#00FFFFFF"/>
+                        <GradientStop Offset="0.66" Color="#9900FF00"/>
+                        <GradientStop Offset="0.9" Color="#FF0000FF"/>
+                    </LinearGradientBrush.GradientStops> 
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>-->
+<!--不透明遮罩-->
+<Window x:Class="Wpf_Graphics_pic_Effects.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_pic_Effects"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500">
+    <Canvas Width="252" Height="137" Background="Yellow">
+        <Canvas.OpacityMask>
+            <RadialGradientBrush GradientOrigin=".5 .3">
+                <RadialGradientBrush.GradientStops>
+                    <GradientStop Offset="0"  Color="#FF000000"/>
+                    <GradientStop Offset="0.33"  Color="#00000000"/>
+                    <GradientStop Offset="0.66"  Color="#FF000000"/>
+                    <GradientStop Offset="1"  Color="#33000000"/>
+                </RadialGradientBrush.GradientStops>  
+            </RadialGradientBrush>
+        </Canvas.OpacityMask>
+    </Canvas>
+ </Window>

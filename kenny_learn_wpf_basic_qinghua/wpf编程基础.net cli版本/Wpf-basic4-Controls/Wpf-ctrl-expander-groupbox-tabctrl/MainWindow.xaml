@@ -1,0 +1,36 @@
+﻿<Window x:Class="Wpf_ctrl_expander_groupbox_tabctrl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_ctrl_expander_groupbox_tabctrl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="220" Width="200">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Tab1">
+                <StackPanel>
+                <Expander Header="Expander example" IsExpanded="True">
+                    <Border BorderThickness="6" Padding="6">
+                        <StackPanel>
+                            <TextBox Text="First Child" />
+                            <TextBlock Text="Second Child" />
+                        </StackPanel>
+                    </Border>
+                </Expander>
+                <GroupBox Header="GroupBox Example" Margin="5">
+                    <StackPanel>
+                        <RadioButton Content="Male" IsChecked="True" />
+                        <RadioButton Content="Female"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            </TabItem>
+            <TabItem Header="tab2">
+                <Button>Hello Tab2</Button>
+            </TabItem>    
+            
+        </TabControl>
+       
+    </Grid>
+</Window>

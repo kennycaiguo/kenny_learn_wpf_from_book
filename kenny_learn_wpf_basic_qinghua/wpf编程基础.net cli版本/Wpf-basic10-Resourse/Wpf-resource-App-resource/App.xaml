@@ -1,0 +1,15 @@
+﻿<Application x:Class="Wpf_resource_App_resource.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wpf_resource_App_resource"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="gradientBrush">
+            <LinearGradientBrush.GradientStops>
+                <GradientStop Offset="0" Color="Gold" />
+                <GradientStop Offset="0.5" Color="LightGoldenrodYellow" />
+                <GradientStop Offset="1" Color="Silver" />
+            </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}|Wpf-animation-media-video\\Wpf-animation-media-video.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-basic8-animation\\wpf-animation-media-video\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}|Wpf-animation-media-video\\Wpf-animation-media-video.csproj|solutionrelative:wpf-animation-media-video\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}|Wpf-animation-media-video\\Wpf-animation-media-video.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-basic8-animation\\wpf-animation-media-video\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9758475A-1B54-4F28-8B49-07C3A6A0A0B8}|Wpf-animation-media-video\\Wpf-animation-media-video.csproj|solutionrelative:wpf-animation-media-video\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7576F10-65E6-4C49-A79E-3C64C82538FA}|Wpf-animation-media-audio\\Wpf-animation-media-audio.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-basic8-animation\\wpf-animation-media-audio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7576F10-65E6-4C49-A79E-3C64C82538FA}|Wpf-animation-media-audio\\Wpf-animation-media-audio.csproj|solutionrelative:wpf-animation-media-audio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7576F10-65E6-4C49-A79E-3C64C82538FA}|Wpf-animation-media-audio\\Wpf-animation-media-audio.csproj|f:\\projects_f\\dotnet-projs\\wpf\\wpf-basic8-animation\\wpf-animation-media-audio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D7576F10-65E6-4C49-A79E-3C64C82538FA}|Wpf-animation-media-audio\\Wpf-animation-media-audio.csproj|solutionrelative:wpf-animation-media-audio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-video\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf-animation-media-video\\MainWindow.xaml",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-video\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf-animation-media-video\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T21:34:40.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-video\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf-animation-media-video\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-video\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf-animation-media-video\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:34:40.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-audio\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Wpf-animation-media-audio\\MainWindow.xaml",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-audio\\MainWindow.xaml",
+              "RelativeToolTip": "Wpf-animation-media-audio\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T21:31:25.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-audio\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Wpf-animation-media-audio\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Projects_f\\dotnet-projs\\wpf\\Wpf-basic8-Animation\\Wpf-animation-media-audio\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Wpf-animation-media-audio\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:40:49.292Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

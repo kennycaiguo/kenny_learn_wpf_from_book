@@ -1,0 +1,44 @@
+﻿<Window x:Class="Wpf_Graphics_Drawing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Graphics_Drawing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grid">
+        <Image>
+            <Image.Source>
+                <DrawingImage>
+                    <DrawingImage.Drawing>
+                        <DrawingGroup>
+                            <GeometryDrawing>
+                                <GeometryDrawing.Geometry>
+                                    <GeometryGroup>
+                                        <RectangleGeometry Rect="0,0,20,20"/>
+                                        <RectangleGeometry Rect="160,120,20,20"/>
+                                        <EllipseGeometry Center="75,75" RadiusX="50" RadiusY="50"/>
+                                        <LineGeometry StartPoint="75,75" EndPoint="180,0"/>
+                                        
+                                    </GeometryGroup>
+                                </GeometryDrawing.Geometry>
+                                <GeometryDrawing.Pen>
+                                    <Pen Thickness="10" LineJoin="Round" EndLineCap="Triangle" 
+                                         StartLineCap="Round" DashStyle="{x:Static DashStyles.DashDot}">
+                                        <Pen.Brush>
+                                            <LinearGradientBrush>
+                                                <GradientStop Offset="0.0" Color="Red"/>
+                                                <GradientStop Offset="1.0" Color="Green"/>
+                                            </LinearGradientBrush>
+                                        </Pen.Brush>
+                                    </Pen>
+                                </GeometryDrawing.Pen>
+                            </GeometryDrawing>
+                        </DrawingGroup>
+                    </DrawingImage.Drawing>
+                </DrawingImage>
+            </Image.Source>
+        </Image>
+    </Grid>
+    
+</Window>

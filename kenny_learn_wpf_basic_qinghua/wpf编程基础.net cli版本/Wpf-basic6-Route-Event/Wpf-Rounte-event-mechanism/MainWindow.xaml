@@ -1,0 +1,32 @@
+﻿<Window x:Class="Wpf_Rounte_event_mechanism.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Rounte_event_mechanism"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MouseUp="Window_MouseUp" 
+        PreviewMouseDown="topButton_PreviewMouseDown">
+    <Grid>
+        <Grid Background="Yellow" MouseUp="Grid_MouseUp" Name="gridYellow"
+              PreviewMouseDown="topButton_PreviewMouseDown">
+            <Grid Margin="20" Background="Red" MouseUp="Grid_MouseUp" Name="gridRed"
+                  PreviewMouseDown="topButton_PreviewMouseDown">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Name="topStack" Grid.Row="0" Background="Pink" Margin="10"
+                            PreviewMouseDown="topButton_PreviewMouseDown">
+                    <Button x:Name="topButton" Content="Top" Width="90" Height="100" Margin="15"
+                            PreviewMouseDown="topButton_PreviewMouseDown"/>
+                </StackPanel> 
+                <StackPanel Name="bottomStack" Grid.Row="1" Background="Pink" Margin="10" 
+                            MouseUp="bottomStack_MouseUp">
+                    <Button x:Name="buttomButton" Content="Button" Width="90" Height="100" Margin="15" 
+                            MouseUp="buttomButton_MouseUp"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

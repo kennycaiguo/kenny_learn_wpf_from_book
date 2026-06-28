@@ -1,0 +1,25 @@
+﻿<Window x:Class="Wpf_ctrls_Button_ctrls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_ctrls_Button_ctrls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="800">
+    <Grid>
+        <Button Margin="12,11,0,90" Height="60" HorizontalAlignment="Left" Width="142" Content="Button1" />
+        <CheckBox IsChecked="{x:Null}" Margin="174,21,210,0" Width="117" Height="15" VerticalAlignment="Top" 
+                  Content="Check NULL"/>
+        <CheckBox IsChecked="True" Margin="174,40,210,0" Width="117" Height="15" VerticalAlignment="Top" 
+                  Content="Check True"/>
+        <CheckBox IsChecked="False" Margin="174,60,210,0" Width="117" Height="15" VerticalAlignment="Top" 
+                  Content="UnCheck"/>
+        <RadioButton IsChecked="{x:Null}" Margin="450,21,130,0" Width="165" Height="15" VerticalAlignment="Top"
+                     Content="RadioButton NULL"/>
+        <RadioButton IsChecked="True" Margin="450,40,130,0" Width="165" Height="15" VerticalAlignment="Top"
+                     Content="RadioButton Checked"/>
+        <RadioButton IsChecked="False" Margin="450,60,130,0" Width="165" Height="15" VerticalAlignment="Top"
+                     Content="RadioButton Unchecked"/>
+
+    </Grid>
+</Window>

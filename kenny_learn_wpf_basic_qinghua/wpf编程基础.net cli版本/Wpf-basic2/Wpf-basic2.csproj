@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Wpf_basic2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="girlsinlake.png" />
+    <None Remove="pretty04.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="girlsinlake.png" />
+    <Resource Include="pretty04.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="Wpf_ctrls_ListTypeCtrl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_ctrls_ListTypeCtrl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="130" Width="800">
+    <Grid>
+        <StackPanel>
+            <ListBox Background="AliceBlue">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="4"></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                
+                <ListBoxItem>item1</ListBoxItem>
+                <ListBoxItem>item2</ListBoxItem>
+                <ListBoxItem>item3</ListBoxItem>
+                <ListBoxItem>item4</ListBoxItem>
+                <ListBoxItem IsSelected="True">item5</ListBoxItem>
+                <ListBoxItem>item6</ListBoxItem>
+                <ListBoxItem>item7</ListBoxItem>
+                <ListBoxItem>item8</ListBoxItem>
+                <ListBoxItem>item9</ListBoxItem>
+                <ListBoxItem>item10</ListBoxItem>
+                <ListBoxItem>item11</ListBoxItem>
+                <ListBoxItem>item12</ListBoxItem>
+            </ListBox>
+            <ComboBox>
+                <ComboBoxItem>ComboBox Item1</ComboBoxItem>
+                <ComboBoxItem>ComboBox Item2</ComboBoxItem>
+                <ComboBoxItem IsSelected="True">ComboBox Item3</ComboBoxItem>
+                <ComboBoxItem>ComboBox Item4</ComboBoxItem>
+                <ComboBoxItem>ComboBox Item5</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</Window>

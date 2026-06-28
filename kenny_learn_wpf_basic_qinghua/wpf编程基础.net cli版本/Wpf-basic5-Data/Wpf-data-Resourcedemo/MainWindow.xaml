@@ -1,0 +1,29 @@
+﻿<Window x:Class="Wpf_data_Resourcedemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_data_Resourcedemo"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="bg">LightGreen</SolidColorBrush>
+            <sys:String x:Key="jys1">床前明月光</sys:String>
+            <sys:String x:Key="jys2">疑是地上霜</sys:String>
+            <sys:String x:Key="jys3">举头望明月</sys:String>
+            <sys:String x:Key="jys4">低头思故乡</sys:String>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <Button Background="{StaticResource bg}" Content="使用静态资源的按钮" />
+            <TextBlock Text="静夜思--李白" />
+            <TextBlock Text="{StaticResource jys1}" />
+            <TextBlock Text="{StaticResource jys2}" />
+            <TextBlock Text="{StaticResource jys3}" />
+            <TextBlock Text="{StaticResource jys4}" />
+        </StackPanel>
+    </Grid>
+</Window>

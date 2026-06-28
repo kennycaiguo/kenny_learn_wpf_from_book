@@ -1,0 +1,47 @@
+﻿<Window x:Class="Wpf_basic2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_basic2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <!--把Teacher类作为本地资源添加进来-->
+    <Window.Resources>
+        <local:Teacher x:Key="teacher" Student="I am you son" />
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" >
+                    <GradientStop Color="DeepPink" Offset="0" />
+                    <GradientStop Color="Yellow" Offset="0.6" />
+                    <GradientStop Color="Green" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Content>
+                <StackPanel>
+                    <Image  Width="150" Height="150" Source="/pretty04.jpg"/>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">&lt; Pretty &gt;</TextBlock>
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <StackPanel Grid.Column="1" >
+            <Rectangle x:Name="Rect"  Grid.Column="1" Fill="Violet" Width="400" Height="103" MouseDown="Rect_MouseDown"/>
+            <Button x:Name="Click"  >
+                <Image Source="/girlsinlake.png"  MouseDown="OnClicked"/>
+            </Button>
+            <Rectangle x:Name="Rect2"  Grid.Column="1" Fill="Violet" Width="400" Height="103" MouseDown="Rect_MouseDown"/>
+        </StackPanel>
+        
+
+
+
+    </Grid>
+</Window>

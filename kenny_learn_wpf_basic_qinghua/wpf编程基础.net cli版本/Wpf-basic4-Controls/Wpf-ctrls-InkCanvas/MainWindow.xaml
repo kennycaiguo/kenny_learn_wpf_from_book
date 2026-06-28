@@ -1,0 +1,17 @@
+﻿<Window x:Class="Wpf_ctrls_InkCanvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_ctrls_InkCanvas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <InkCanvas Name="_ink" StrokeCollected="InkCanvas_StrokeCollected" Background="Beige" 
+                       Gesture="InkGesture" EditingMode="InkAndGesture"/>
+            <Canvas Name="layover"/>
+            <ListBox Name="_look" />
+        </StackPanel>
+    </Grid>
+</Window>

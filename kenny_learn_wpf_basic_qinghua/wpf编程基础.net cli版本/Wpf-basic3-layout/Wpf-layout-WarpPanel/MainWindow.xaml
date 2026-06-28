@@ -1,0 +1,21 @@
+﻿<Window x:Class="Wpf_layout_WarpPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_layout_WarpPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="80" Width="315">
+    <WrapPanel Background="AliceBlue">
+        <Button Content="One" />
+        <Button Content="Two" />
+        <Button Content="Three" />
+        <Button Content="Four" />
+        <Button Content="Five" />
+        <Button Content="Six" />
+        <Button Content="Seven" />
+        <Button Content="Eight" />
+        <Button Content="Nine" />
+        <Button Content="Ten" />
+    </WrapPanel>
+</Window>
